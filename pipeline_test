@@ -1,0 +1,40 @@
+pipeline {
+    agent any
+    
+    environment {
+        NAME = "amirmahdi"
+        LAST_NAME = 'fathipoor'
+        VALUE = 1
+        result_ISP = sh (script:'ping -c 4 8.8.8.8', returnStdout: true).trim()
+        result_server = sh (script:'ping -c 4 192.168.1.8', returnStdout: true).trim()
+    }
+    
+    stages {
+        stage ("Build") {
+            when {
+                expression {
+                    env.VALUE != 1
+                }
+            }
+            steps {
+                echo "Hi"
+                echo "My name is ${env.NAME}"
+                echo "My last name is ${env.LAST_NAME}"
+            }
+        }
+        
+        stage ("test") {
+            steps {
+                echo "test server : ${env.result_server}"
+                echo "test ISP : ${env.result_ISP}"
+            }
+        }
+    }
+    
+        
+    post {
+        success {
+            echo "Done !"
+        }
+    }
+}
