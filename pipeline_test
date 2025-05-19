@@ -10,6 +10,18 @@ pipeline {
     }
     
     stages {
+        stage ("Checkout SCM") {
+            steps {
+                git branch: 'main', url: 'https://github.com/linux-best/scripts/'
+                
+            }
+        }
+        stage ("Command_Execution") {
+            steps {
+                sh "ls -lha"
+            }
+            
+        }
         stage ("Build") {
             when {
                 expression {
