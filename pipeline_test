@@ -20,7 +20,6 @@ pipeline {
             steps {
                 sh "ls -lha"
             }
-            
         }
         stage ("Build") {
             when {
