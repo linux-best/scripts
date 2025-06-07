@@ -21,7 +21,7 @@ def a(x=index):
     else:
         return 1
 
-lst = ["8.8.8.8","192.168.1.7"]
+lst = ["8.8.8.8","192.168.1.8"]
 for i in lst:
     health_check(ip_address=i)
 a()
