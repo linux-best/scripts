@@ -7,7 +7,7 @@ function_version() {
 		echo "package available  ==> $dir $version"
 	else
 		echo "package not available ==> $dir $version"
-		sudo apt install $dir 2> /dev/null
+		sudo apt install $dir -y 2> /dev/null
 	fi
 }
 
