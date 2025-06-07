@@ -1,5 +1,2 @@
-os-sys
 loguru
-logging
-subprocess
-
+os-sys
