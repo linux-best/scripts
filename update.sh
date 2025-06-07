@@ -12,5 +12,5 @@ if grep -q "Ubuntu" $var || grep -q "Pop" $var
 then
     # update on ubuntu and pop-os
     sudo apt update
-    sudo apt upgrade
+    #sudo apt upgrade
 fi
