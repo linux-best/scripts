@@ -9,7 +9,7 @@ def a(x):
 
 def health_check(ip_address):
     global index
-    command = ["ping",ip_address]
+    command = ["ping",ip_address,"-c","4"]
     ping_command = subprocess.run(command,capture_output=True,text=True)
     #exit_code = ping_command = subprocess.call(command)
     if ping_command.returncode == 0 :
