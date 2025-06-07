@@ -1,4 +1,5 @@
 directory=packages/requierment_linux.txt
+num=1
 
 function_version() {
 	version=$($dir --version)
@@ -14,4 +15,7 @@ function_version() {
 for dir in $(cat $directory)
 do
 	function_version $dir
+	sleep 1.5
+	echo "Complete $num/5 Packages"
+	num=$(($num+1))
 done
