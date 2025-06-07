@@ -1,5 +1,12 @@
 import subprocess
 index = 0
+count=0
+
+def a(x,z):
+    if x>z :
+        return 1
+    else:
+        return 0
 
 def health_check(ip_address):
     global index
@@ -9,19 +16,13 @@ def health_check(ip_address):
     if ping_command.returncode == 0 :
         #print("the connection is OK !")
         #return exit_code
-        pass
+        count+1 
     else :
         #print("the connection is'nt Ok !")
         #return exit_code
         index+=1
 
-def a(x=index):
-    if x == 0 :
-        return 0
-    else:
-        return 1
-
 lst = ["8.8.8.8","192.168.1.8"]
 for i in lst:
     health_check(ip_address=i)
-a()
+a(index,count)
