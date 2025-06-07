@@ -1,0 +1,6 @@
+apt
+ansible
+git
+yara
+docker
+
