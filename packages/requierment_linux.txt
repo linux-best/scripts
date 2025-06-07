@@ -2,4 +2,3 @@ apt
 ansible
 git
 yara
-sonar-scanner
