@@ -3,4 +3,3 @@ ansible
 git
 yara
 python3
-python3-pip
