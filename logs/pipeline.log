@@ -1,0 +1,53 @@
+# pipeline log
+
+ June 28, 2025 - 12:34:37 -- INFO -- hello {'log': 'log=helo'}
+ June 28, 2025 - 12:35:15 -- INFO -- hello {'log': 'helo'}
+ June 28, 2025 - 12:37:06 -- INFO -- hello {'log': 'helo'}
+ June 28, 2025 - 12:37:54 -- INFO -- hello {'log': 'helow'}
+ June 28, 2025 - 12:38:41 -- INFO -- hello {'log': 'helow'}
+ June 28, 2025 - 12:40:31 -- INFO -- hello {'log': 'helow'}
+ June 28, 2025 - 12:40:33 -- SUCCESS -- hello {'log': 'helow'}
+ June 28, 2025 - 12:40:35 -- ERROR -- hello {'log': 'helow'}
+ July 1, 2025 - 03:39:07 -- INFO -- log success {'log': 'true'}
+ July 1, 2025 - 03:39:14 -- SUCCESS -- log success {'log': 'true'}
+ July 1, 2025 - 03:39:19 -- ERROR -- log success {'log': 'true'}
+ July 1, 2025 - 03:39:24 -- INFO -- log success {'log': 'true'}
+ July 1, 2025 - 03:39:34 -- SUCCESS -- log success {'log': 'true'}
+ July 1, 2025 - 03:39:38 -- ERROR -- log success {'log': 'true'}
+ July 1, 2025 - 03:55:45 -- SUCCESS -- log successed {'log': 'true'}
+ July 1, 2025 - 11:50:07 -- ERROR -- log {'log': '2'}
+ July 2, 2025 - 04:26:01 -- INFO -- log msg {}
+ July 2, 2025 - 04:51:27 -- INFO -- log {}
+ July 2, 2025 - 04:52:35 -- INFO -- log {}
+ July 2, 2025 - 04:54:22 -- INFO -- log {}
+ July 2, 2025 - 05:23:34 -- SUCCESS -- log {}
+ July 2, 2025 - 05:51:46 -- SUCCESS -- sys.argv[2] {}
+ July 2, 2025 - 05:54:02 -- SUCCESS -- stage {}
+ July 2, 2025 - 05:57:00 -- SUCCESS -- stage was successful {}
+ July 2, 2025 - 06:04:38 -- INFO -- logmsg {'log': 'stahe'}
+ July 2, 2025 - 06:06:06 -- INFO -- logmsg {'stage': 'stahe'}
+ July 2, 2025 - 06:07:08 -- SUCCESS -- stage was successful {'stage': 'stage =>(load_script)'}
+ July 2, 2025 - 06:09:29 -- SUCCESS -- stage was successful {'status': 'stage =>(load_script)'}
+ July 2, 2025 - 06:15:24 -- SUCCESS -- stage was successful {'status': 'stage =>(load_script)'}
+ July 2, 2025 - 06:19:42 -- SUCCESS -- stage was successful {'status': 'stage =>(load_script)'}
+ July 2, 2025 - 06:21:53 -- SUCCESS -- stage was successful {'status': 'stage =>(load_script)'}
+ July 2, 2025 - 06:24:53 -- SUCCESS -- stage was successful {'status': 'stage =>(load_script)'}
+ July 2, 2025 - 06:27:47 -- SUCCESS -- stage was successful {'status': 'stage =>(load_script)'}
+ July 2, 2025 - 06:47:40 -- SUCCESS -- stage was successful {'status': 'stage =>(Command_Execution)'}
+ July 2, 2025 - 06:47:40 -- SUCCESS -- stage was successful {'status': 'stage =>(load_script)'}
+ July 2, 2025 - 06:58:31 -- INFO -- stage was successful {'status': 'stage =>(Command_Execution)'}
+ July 2, 2025 - 06:58:32 -- INFO -- stage was successful {'status': 'stage =>(load_script)'}
+ July 2, 2025 - 06:58:37 -- SUCCESS -- pipeline was successful {'status': 'stage =>(email_notification)'}
+ July 4, 2025 - 04:01:53 -- INFO -- pipeline has failed {'log': 'stage =>(email_notification)'}
+ July 4, 2025 - 04:02:16 -- ERROR -- pipeline has failed {'log': 'stage =>(email_notification)'}
+ July 4, 2025 - 04:04:47 -- INFO -- stage was successful {'log': 'stage =>(Command_Execution)'}
+ July 4, 2025 - 04:04:48 -- INFO -- stage was successful {'log': 'stage =>(load_script)'}
+ July 4, 2025 - 04:04:57 -- SUCCESS -- pipeline was successful {'log': 'stage =>(email_notification)'}
+ July 4, 2025 - 04:31:34 -- INFO -- pipeline started {'log': 'stage =>(checkout_SCM)'}
+ July 4, 2025 - 04:31:35 -- INFO -- stage was successful {'log': 'stage =>(Loading_script)'}
+ July 4, 2025 - 04:31:39 -- INFO -- stage was successful {'log': 'stage =>(Command_Execution)'}
+ July 4, 2025 - 04:31:40 -- INFO -- stage was successful {'log': 'stage =>(Echo_script)'}
+ July 4, 2025 - 04:31:51 -- SUCCESS -- pipeline was successful {'log': 'stage =>(Email_Notification)'}
+ July 29, 2025 - 08:32:54 -- ERROR -- Build not Execute ! {'log': True}
+ July 29, 2025 - 08:33:53 -- SUCCESS -- Build Execute ! {'log': True}
+ July 29, 2025 - 08:33:53 -- INFO -- Build Executed ! {'log': True}
