@@ -15,7 +15,7 @@ def health_check(ip_address):
     if ping_command.returncode != 0 :
         index+=1
     
-lst = ["8.8.8.8","192.168.1.7","192.168.1.8"]
+lst = ["8.8.8.8","192.168.1.5"]
 for i in lst:
     health_check(ip_address=i)
 a(index)
