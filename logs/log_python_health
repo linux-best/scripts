@@ -5,3 +5,12 @@
  INFO - 2026-10-06 13:20:26,206 - root --> HEALTH-CHECK Done !!!
  CHECK THE LOGS --> [logs/log_python_health]
 =====================================================================
+ INFO - 2026-10-06 13:48:39,406 - root --> HEALTH CHECK SUCCESS - IP=8.8.8.8 - STATUS=Connected
+ DEBUG - 2026-10-06 13:48:39,409 - root --> state SET - 8.8.8.8:Connected
+ INFO - 2026-10-06 13:48:42,463 - root --> HEALTH CHECK SUCCESS - IP=192.168.1.1 - STATUS=Connected
+ DEBUG - 2026-10-06 13:48:42,465 - root --> state SET - 192.168.1.1:Connected
+ INFO - 2026-10-06 13:48:45,549 - root --> HEALTH CHECK SUCCESS - IP=127.0.0.1 - STATUS=Connected
+ DEBUG - 2026-10-06 13:48:45,553 - root --> state SET - 127.0.0.1:Connected
+ INFO - 2026-10-06 13:48:45,557 - root --> HEALTH-CHECK Done !!!
+ CHECK THE LOGS --> [logs/log_python_health]
+=====================================================================
