@@ -18,7 +18,7 @@ logging.basicConfig(filename=log_file,level=logging.DEBUG,
 
 def health_check(ip_address):
     global counter
-    command = ["ping",ip_address]
+    command = ["ping","-c","4",ip_address]
     ping_command = subprocess.run(command,capture_output=True,text=True,timeout=5)
     #exit_code => ping_command = subprocess.call(command)
     if ping_command.returncode == 0 :
