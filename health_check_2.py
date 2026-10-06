@@ -9,7 +9,7 @@ counter = 0
 log_file = "logs/log_python_health"
 state_1,state_2,state_3 = "Disconnected","Corrupted","Connected"
 clients = {"8.8.8.8":"Unknown",
-        "192.168.2.1":"Unknown",
+        "192.168.1.1":"Unknown",
         "127.0.0.1":"Unknown"}
 
 logging.basicConfig(filename=log_file,level=logging.DEBUG,

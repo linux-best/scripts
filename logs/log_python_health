@@ -1,1 +1,7 @@
 # LOG_FILE
+ INFO - 2026-10-06 13:20:21,199 - root --> HEALTH CHECK SUCCESS - IP=8.8.8.8 - STATUS=Connected
+ DEBUG - 2026-10-06 13:20:21,200 - root --> state SET - 8.8.8.8:Connected
+ ERROR - 2026-10-06 13:20:26,206 - root --> HEALTH CHECK ERROR - IP=192.168.2.1 PING TIMEOUT - DETAILS : Command '['ping', '-c', '4', '192.168.2.1']' timed out after 5 seconds
+ INFO - 2026-10-06 13:20:26,206 - root --> HEALTH-CHECK Done !!!
+ CHECK THE LOGS --> [logs/log_python_health]
+=====================================================================
