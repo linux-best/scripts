@@ -6,7 +6,7 @@ import logging
 import subprocess
 
 counter = 0
-log_file = "C:\\Users\\Dell_USA\\Desktop\\base.log.txt"
+log_file = "logs/log_python_health"
 state_1,state_2,state_3 = "Disconnected","Corrupted","Connected"
 clients = {"8.8.8.8":"Unknown",
         "192.168.2.1":"Unknown",
