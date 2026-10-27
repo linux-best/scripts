@@ -50,7 +50,7 @@ try:
     for key in clients.keys():
         health_check(ip_address=key)
 except FileNotFoundError as e:
-    logging.error(f"COMMAND OR FILES NOT FOUND: {e}")
+    logging.error(f"COMMAND OR FILES NOT FOUND : {e}")
 except PermissionError as e:
     logging.error( f"HEALTH CHECK ERROR - IP={key} "
                   f"PERMISSION DENIED WHILE EXECUTING PING - DETAILS : {e}")
